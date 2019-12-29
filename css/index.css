@@ -1,0 +1,181 @@
+
+
+
+.hero{
+    background-image: url(../images/main.png);
+    height:400px;
+    background-position: center;
+
+}
+.hero>h1{
+    text-align: center;
+     padding-top: 15.3%; 
+     padding-top:179px;
+}
+@media (max-width:767px){
+    .hero>h1{
+        text-align: center; 
+         padding-top:144px;
+    }
+}
+.banner_inner{
+    /* text-align:justify; */
+    padding-left:10px;
+    padding-right:10px;
+}
+.caption{
+    height:240px;
+
+}
+.caption >.txt2>p{
+    margin: 15px;
+}
+@media (min-width: 767px) and (max-width:979px){
+    .caption{
+        height:330px;
+    }
+}
+@media (max-width: 766px) {
+    .caption{
+        height:250xpx;
+    }
+}
+.pad_right20{
+    text-align:center;
+    background-color:#5e456c;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 1.5em;
+    font-size:1.5em;
+}
+div.span4:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1) {
+    height: 233px;
+   }
+   
+div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) > div:nth-child(2) {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+   }
+
+
+.lien {
+    
+    background-color:#5e456c; 
+    height: 470px;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 3.5em;
+    font-size:1.5em;
+    list-style-type: none;
+    
+
+}
+
+.lien li::before {
+
+    font-family: "Font Awesome 5 Pro";
+    content: '\f02e';
+    margin-right: 0.5em;
+    float: left;
+    
+    
+   
+}
+
+.lien a{
+    display:inline-block;
+    width: calc(100% - 2em);
+    text-decoration: none;
+    
+    
+    
+}
+.lien li{
+    margin-bottom: 1em;
+    
+    
+    
+}
+
+@media (min-width: 980px) and (max-width:1199px){
+    .lien{
+        height: 578px;
+    }
+}
+@media (min-width: 668px) and (max-width:979px){
+    .lien{
+        height: 740px;
+    }
+}
+@media (min-width: 481px) and  (max-width:767px){
+    .lien{
+        height: 420px;
+    }
+}
+@media (min-width: 360px) and  (max-width:480px){
+    .lien{
+        height: 530px;
+        
+    }
+     
+      
+    
+    
+}
+
+
+
+.lien>h2 {
+    line-height: 1.5em;
+    font-size:1.5em;
+}
+
+.footer-disclaimer {
+     padding-left: 37px;
+}
+
+.copyright{
+    margin-left:100px;
+    height:40px;
+    width: 270px;
+}
+@media (min-width: 360px) and  (max-width:480px){
+   .copyright{
+        margin-left:20px;
+    }
+    
+}
+
+.tel:hover{
+    color: blue;
+}
+
+/*-----------------------------------------------------------style html2--------------------*/
+
+.livre{
+    height:420px;
+}
+
+@media (min-width: 360px) and  (max-width:1199px){
+    
+    #content_inner > div.banners > div > div.span4.banner.banner1 > div > a > img{
+        height:187px;
+    }
+}
+    
+    @media (min-width: 668px) and (max-width:979px){
+        
+        #content_inner > div.banners > div > div.span4.banner.banner1 > div > a > img{
+            height:139px;
+    }
+}
+
+    @media (min-width: 481px) and  (max-width:767px){
+        #content_inner > div.banners > div > div.span4.banner.banner1 > div > a > img{
+            height:280px;
+    }
+}
+    
+
