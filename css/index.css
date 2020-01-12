@@ -7,6 +7,9 @@
     background-position: center;
 
 }
+p{
+    font-size: 1.1rem;
+}
 .family-img{
     height: 15em;
     padding-bottom: 2em;
@@ -33,6 +36,7 @@
 }
 .caption >.txt2>p{
     margin: 15px;
+    font-size: 1.1em;
 }
 @media (min-width: 767px) and (max-width:979px){
     .caption{
