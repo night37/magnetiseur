@@ -34,9 +34,13 @@ p{
     height:240px;
 
 }
+.tel{
+    margin-top:10%;
+    margin-left:81%;
+}
 .caption >.txt2>p{
     margin: 15px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 @media (min-width: 767px) and (max-width:979px){
     .caption{
@@ -111,21 +115,37 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
     .lien{
         height: 578px;
     }
+    .tel{
+        margin-top:12%;
+        margin-left:76%;
+    }
 }
 @media (min-width: 668px) and (max-width:979px){
     .lien{
         height: 740px;
+    }
+    .tel{
+        margin-top:16%;
+        margin-left:69%;
     }
 }
 @media (min-width: 481px) and  (max-width:767px){
     .lien{
         height: 420px;
     }
+    .tel{
+        margin-top:27%;
+        margin-left:50%;
+    }
 }
 @media (min-width: 360px) and  (max-width:480px){
     .lien{
         height: 530px;
         
+    }
+    .tel{
+        margin-top:28%;
+        margin-left:15%;
     }
      
       
