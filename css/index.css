@@ -7,6 +7,10 @@
     background-position: center;
 
 }
+.family-img{
+    height: 15em;
+    padding-bottom: 2em;
+}
 .hero>h1{
     text-align: center;
      padding-top: 15.3%; 
