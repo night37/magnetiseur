@@ -7,9 +7,9 @@
     background-position: center;
 
 }
-p{
+/* p{
     font-size: 1.1rem;
-}
+} */
 .family-img{
     height: 21em;
     padding-bottom: 2em;
@@ -56,11 +56,23 @@ p{
 .pad_right20{
     text-align:center;
     background-color:#5e456c;
-    padding-left:10px;
-    padding-right:10px;
+    /*padding-left:10px;
+    padding-right:10px;*/
+    padding: 20px;
     line-height: 1.5em;
-    font-size:1.5em;
+    /*font-size:1.5em;*/
 }
+
+.pad_right20 h2{
+    margin-bottom: 20px;
+}
+
+.pad_right20 p{
+    font-size: 1.2em;
+    line-height: 25px;
+    text-align: justify;
+}
+
 div.span4:nth-child(1) > div:nth-child(1) > a:nth-child(1) > img:nth-child(1) {
     height: 233px;
    }
@@ -76,11 +88,12 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
 .lien {
     
     background-color:#5e456c; 
-    height: 470px;
-    padding-left:10px;
-    padding-right:10px;
+    /*height: 470px;*/
+    /*padding-left:10px;
+    padding-right:10px;*/
+    padding: 20px;
     line-height: 3.5em;
-    font-size:1.5em;
+    font-size:1.2em;
     list-style-type: none;
     
 
@@ -123,7 +136,7 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
 }
 @media (min-width: 668px) and (max-width:979px){
     .lien{
-        height: 740px;
+        /*height: 740px;*/
     }
     .tel{
         margin-top:16%;
@@ -159,6 +172,7 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
 .lien>h2 {
     line-height: 1.5em;
     font-size:1.5em;
+    text-align: center;
 }
 
 .footer-disclaimer {

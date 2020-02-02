@@ -134,7 +134,14 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 /* ============================= main layout ====================== */
 h1{ font-family:'Julius Sans One'; font-weight:400; font-size:32px; color:#fff; line-height:35px; padding:15px 0 15px 0; margin: 0;}
 
-h2{ font-family:'Julius Sans One'; font-weight:400; font-size:28px; color:#fff; line-height:30px; padding:20px 0 15px 0; margin: 0;}
+h2{
+	font-family:'Julius Sans One';
+	font-weight:400; font-size:28px; color:#fff; 
+	line-height:30px;
+	/*padding:20px 0 15px 0;*/
+	
+	margin: 0;
+}
 h2 span{display: inline-block; font-family: 'Open Sans'; font-size: 14px; color: #a497a5; line-height: 20px;}
 h2.cust1{margin-bottom: 20px; background: url(../images/line1_px.png) left bottom repeat-x;}
 
@@ -171,10 +178,16 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .button1:hover { color:#fff; background: #cd6fc2;}
 
 .banners{ padding-bottom: 20px; padding-top: 40px;}
-.banners .banner{padding-bottom: 20px;}
+.banners .banner{
+	padding-bottom: 20px;
+	
+}
 .banners .banner .banner_inner{min-height: 320px;}
-.banners .banner a{padding-top: 10px; text-decoration: none; display: block;
-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
+.banners .banner a{
+	cursor: default;
+	pointer-events: none;
+	padding-top: 10px; text-decoration: none; display: block;
+	transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 }
 .banners .banner a:hover{padding-top: 0;}
 .banners .banner a .img{width: 100%;}
@@ -182,11 +195,22 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out;
 }
 .banners .banner a:hover .caption{padding-top: 40px; padding-bottom: 40px;}
-.banners .banner.banner1 a .caption{background: url(../images/corner1.jpg) left bottom repeat-x #9eb60c;}
+.banners .banner.banner1 a .caption{
+	background: url(../images/corner1.jpg) left bottom repeat-x #9eb60c;
+}
 .banners .banner.banner2 a .caption{background: url(../images/corner2.jpg) left bottom repeat-x #cd6fc2;}
 .banners .banner.banner3 a .caption{background: url(../images/corner3.jpg) left bottom repeat-x #725583;}
 .banners .banner a .caption .txt1{font-family: 'Julius Sans One'; font-size: 20px; color: #fff; line-height: 25px; text-transform: uppercase;}
 .banners .banner a .caption .txt2{font-family: 'Open Sans'; font-size: 14px; color: #fff; line-height: 24px;}
+
+.banners .banner a .caption{
+	padding: 20px;
+	text-align: justify;
+}
+
+.banners .banner a .caption .txt1{
+	text-align: center;
+}
 
 .ul1{ padding: 0; margin: 0; list-style: none;}
 .ul1 > li { padding:0px 0px 0px 25px; margin: 0px 0px 10px 0px; line-height: 20px; color: #a497a5; background: url(../images/li_st1.png) left center no-repeat;}
