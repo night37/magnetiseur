@@ -11,7 +11,7 @@ p{
     font-size: 1.1rem;
 }
 .family-img{
-    height: 15em;
+    height: 21em;
     padding-bottom: 2em;
 }
 .hero>h1{
@@ -30,6 +30,7 @@ p{
     padding-left:10px;
     padding-right:10px;
 }
+
 .caption{
     height:240px;
 
@@ -38,7 +39,7 @@ p{
     margin-top:10%;
     margin-left:81%;
 }
-.caption >.txt2>p{
+.caption >.txt2>ul>li{
     margin: 15px;
     font-size: 1.1rem;
 }
@@ -203,5 +204,58 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
             height:280px;
     }
 }
+
+    img.span6 {
+     width: 570px;
+     height: 395px;
+    }
+
+    .caption{
+        display: grid;
+        grid-template-rows: 20% 60%;
+    }
     
+    #methode{
+        background-color: #ba477ba4;
+        height: 335px;
+        padding-left:40px;
+        grid-row: 1;
+        font-size: 1.1rem;
+    }
+    
+#competences{
+    padding-left:40px;
+    height: 335px;
+    background-color:#c6336e52;
+}
+.infos{
+
+    height: 220px;
+    font-size: 1.1rem;
+    background-color: #5e456c;
+    margin-bottom: 50px;
+}
+.banner_inner>ul>p{
+    padding-top: 50px;
+    color: #fff ;
+}
+.tarif1{
+    padding-top: 29px;
+    color: #fff ; 
+}
+.tarif3{
+    color: #fff;
+}
+
+.autre{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    height: 4rem;
+    background-color: #5e456c;
+    margin-bottom: 10px;
+}
+
+
 
