@@ -206,6 +206,9 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .banners .banner a .caption{
 	padding: 20px;
 	text-align: justify;
+	min-height:auto;
+	height:480px;
+
 }
 
 .banners .banner a .caption .txt1{
