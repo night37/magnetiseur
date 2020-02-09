@@ -217,6 +217,104 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
         #content_inner > div.banners > div > div.span4.banner.banner1 > div > a > img{
             height:280px;
     }
+    div.span6:nth-child(1) > div:nth-child(1) ,
+    div.banner:nth-child(2) > div:nth-child(1) {
+        padding-left: 0px;
+        padding-right: 0px;
+       }
+
+/* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+
+.banners {
+    /* padding-top: 1px; */
+    /* padding-top: 8px; */
+    padding-top: 7px;
+    padding-bottom: 39px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span6:nth-child(1) {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  #methode > div:nth-child(2) > ul:nth-child(1) > li:nth-child(3) {
+    margin-top: 15px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.banner:nth-child(2) {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  .bot1 {
+    padding-top: 20px;
+    height: 97px;
+  }
+
+/* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+
+div.span4:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-bottom: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(1) > div:nth-child(1) > ul:nth-child(2) {
+    padding-left: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(2) > div:nth-child(1) > h2:nth-child(1) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(2) > div:nth-child(1) > ul:nth-child(2) {
+    padding-left: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(3) {
+    padding-left: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span12:nth-child(4) {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(3) > div:nth-child(1) > h2:nth-child(1) {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  /* Élément | http://127.0.0.1:5500/tarifs-et-prestations.html */
+  
+  div.span4:nth-child(3) > div:nth-child(1) > ul:nth-child(2) > p:nth-child(5) {
+    padding-top: 50px;
+  }
+  
+  
+       
 }
 
     img.span6 {
@@ -241,6 +339,12 @@ div.banner:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) >
     padding-left:40px;
     height: 335px;
     background-color:#c6336e52;
+}
+
+#competences>.txt1,
+#methode>.txt1
+{
+    margin-top: 20px;
 }
 .infos{
 
